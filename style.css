@@ -1,8 +1,10 @@
 #countdown-container {
+    width: 10%;
+    text-align: center;
     font-family: Arial, sans-serif;
     font-size: 18px;
     font-weight: bold;
-    margin: 20px;
+    margin: 20px auto;
     padding: 10px; /* Added padding */
     background-color: white; /* Added background color */
     border-radius: 5px; /* Added rounded corners */
