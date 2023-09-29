@@ -15,6 +15,10 @@ function updateCountdown() {
 
     // Update the countdown timer text
     document.getElementById("days-left").textContent = daysLeft;
+
+    // Check if 'day' should be singular or plural
+    const dayWord = daysLeft === 1 ? "day" : "days";
+    document.getElementById("day-word").textContent = dayWord;
 }
 
 // Update the countdown timer immediately when the page loads
